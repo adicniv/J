@@ -69,6 +69,7 @@ class ContactViewContacts extends JViewLegacy
 	{
 		if ($this->getLayout() !== 'modal')
 		{
+		    //增加“联系人”子菜单链接
 			ContactHelper::addSubmenu('contacts');
 		}
 

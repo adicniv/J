@@ -25,6 +25,7 @@ class ContactHelper extends JHelperContent
 	 *
 	 * @since   1.6
 	 */
+    //增加“联系人”子菜单链接
 	public static function addSubmenu($vName)
 	{
 		JHtmlSidebar::addEntry(
