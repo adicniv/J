@@ -136,6 +136,7 @@ class ContactViewContacts extends JViewLegacy
 
 		if ($canDo->get('core.create') || count($user->getAuthorisedCategories('com_contact', 'core.create')) > 0)
 		{
+		    //增加NEW工具按钮
 			JToolbarHelper::addNew('contact.add');
 		}
 
