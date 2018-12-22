@@ -87,7 +87,7 @@ defined('_JEXEC') or die;
 	</dt>
 	<dd>
 		<span class="contact-telephone" itemprop="telephone">
-			<?php echo $this->contact->telephone; ?>
+			<a herf="<?php echo $this->contact->mobile; ?>"><h><?php echo $this->contact->telephone; ?></h1></a>
 		</span>
 	</dd>
 <?php endif; ?>
