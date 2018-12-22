@@ -104,6 +104,7 @@ class ContactViewContact extends JViewLegacy
 			if ($isNew && (count($user->getAuthorisedCategories('com_contact', 'core.create')) > 0))
 			{
 				JToolbarHelper::apply('contact.apply');
+				//contact编辑中的保存
 				JToolbarHelper::save('contact.save');
 				JToolbarHelper::save2new('contact.save2new');
 			}

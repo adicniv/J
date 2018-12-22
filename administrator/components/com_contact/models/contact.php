@@ -287,6 +287,7 @@ class ContactModelContact extends JModelAdmin
 	 */
 	public function save($data)
 	{
+	    //contact 保存程序
 		$input = JFactory::getApplication()->input;
 
 		JLoader::register('CategoriesHelper', JPATH_ADMINISTRATOR . '/components/com_categories/helpers/categories.php');

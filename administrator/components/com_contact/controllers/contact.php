@@ -16,6 +16,7 @@ use Joomla\Utilities\ArrayHelper;
  *
  * @since  1.6
  */
+//新增记录控制器类
 class ContactControllerContact extends JControllerForm
 {
 	/**

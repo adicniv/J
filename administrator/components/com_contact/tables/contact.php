@@ -17,6 +17,7 @@ use Joomla\String\StringHelper;
  *
  * @since  1.0
  */
+//contact记录保存到数据库
 class ContactTableContact extends JTable
 {
 	/**
