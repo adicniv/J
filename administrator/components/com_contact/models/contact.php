@@ -422,6 +422,7 @@ class ContactModelContact extends JModelAdmin
 	 *
 	 * @since   3.0.3
 	 */
+	//处理数据
 	protected function preprocessForm(JForm $form, $data, $group = 'content')
 	{
 		// Determine correct permissions to check.

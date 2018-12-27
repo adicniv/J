@@ -802,6 +802,7 @@ abstract class Table extends \JObject implements \JObservableInterface, \JTableI
 		}
 		else
 		{
+		    //数据库插入操作！
 			$this->_db->insertObject($this->_tbl, $this, $this->_tbl_keys[0]);
 		}
 
