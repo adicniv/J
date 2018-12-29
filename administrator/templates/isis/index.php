@@ -174,6 +174,7 @@ if ($this->params->get('linkColor'))
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!-- 未知类型 -->
 	<jdoc:include type="head" />
 </head>
 <body class="admin <?php echo $option . ' view-' . $view . ' layout-' . $layout . ' task-' . $task . ' itemid-' . $itemid; ?>" data-basepath="<?php echo JURI::root(true); ?>">
@@ -204,6 +205,7 @@ if ($this->params->get('linkColor'))
 				<span class="icon-out-2 small"></span></a>
 
 			<div<?php echo ($this->params->get('admin_menus') != '0') ? ' class="nav-collapse collapse"' : ''; ?>>
+				<!-- 导航 -->
 				<jdoc:include type="modules" name="menu" style="none" />
 				<ul class="nav nav-user<?php echo ($this->direction == 'rtl') ? ' pull-left' : ' pull-right'; ?>">
 					<li class="dropdown">
@@ -247,6 +249,7 @@ if ($this->params->get('linkColor'))
 			<img src="<?php echo $logo; ?>" class="logo" alt="<?php echo $sitename;?>" />
 		</div>
 		<div class="container-title">
+		<!-- 未知类型 -->
 			<jdoc:include type="modules" name="title" />
 		</div>
 	</header>
@@ -273,6 +276,7 @@ if ($this->params->get('linkColor'))
 					<div class="span12">
 						<!-- target for skip to content link -->
 						<a id="skiptarget" class="element-invisible"><?php echo JText::_('TPL_ISIS_SKIP_TO_MAIN_CONTENT_HERE'); ?></a>
+						<!-- 工具栏 -->
 						<jdoc:include type="modules" name="toolbar" style="no" />
 					</div>
 				</div>
