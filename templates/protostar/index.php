@@ -158,12 +158,14 @@ var _hmt = _hmt || [];
 			<header class="header" role="banner">
 				<div class="header-inner clearfix">
 					<a class="brand pull-left" href="<?php echo $this->baseurl; ?>/">
+					<!-- 网站标题 -->
 						<?php echo $logo; ?>
 						<?php if ($this->params->get('sitedescription')) : ?>
 							<?php echo '<div class="site-description">' . htmlspecialchars($this->params->get('sitedescription'), ENT_COMPAT, 'UTF-8') . '</div>'; ?>
 						<?php endif; ?>
 					</a>
 					<div class="header-search pull-right">
+					<!-- 网站position-0位置模块 -->
 						<jdoc:include type="modules" name="position-0" style="none" />
 					</div>
 				</div>
@@ -197,6 +199,7 @@ var _hmt = _hmt || [];
 				<main id="content" role="main" class="<?php echo $span; ?>">
 					<!-- Begin Content -->
 					<jdoc:include type="modules" name="position-3" style="xhtml" />
+					<!-- 未知类型 -->
 					<jdoc:include type="message" />
 					<jdoc:include type="component" />
 					<div class="clearfix"></div>
