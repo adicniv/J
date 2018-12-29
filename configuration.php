@@ -1,7 +1,7 @@
 <?php
 class JConfig {
 	public $offline = '0';
-	public $offline_message = '网站正在维护。<br /> 请稍候访问。';
+	public $offline_message = '缃戠珯姝ｅ湪缁存姢銆�<br /> 璇风◢鍊欒闂��';
 	public $display_offline_message = '1';
 	public $offline_image = '';
 	public $sitename = 'CMK';
@@ -17,7 +17,7 @@ class JConfig {
 	public $user = 'root';
 	public $password = '123456';
 	public $db = 'joomla';
-	public $dbprefix = 't8bpe_';
+	public $dbprefix = 'ox5s9_';
 	public $live_site = '';
 	public $secret = 'jHKQwaa9E7BJE3fx';
 	public $gzip = '0';
